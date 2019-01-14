@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/mac/.nvm/versions/node/v9.11.0/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js add debug
+
+PATH: 
+  /Users/mac/.nvm/versions/node/v9.11.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/aria2/bin:/usr/local/bin:/Users/mac/DStarMan/tools/apache-maven-3.3.9/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.11.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EINVAL: invalid argument, unlink '/Users/mac/Developer/实践类项目/dva/myApp/node_modules/jest-message-util/node_modules/@babel/code-frame'
+
+npm manifest: 
+  {
+    "private": true,
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "roadhog": "^2.0.0"
+    },
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
